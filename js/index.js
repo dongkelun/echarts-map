@@ -25,7 +25,7 @@ function initMapData(mapJson){
 function back(){
     if(mapStack.length!=0){//如果有上级目录则执行
         var map = mapStack.pop();
-        $.get('./asset/json/map/'+map.mapId+'.json', function (mapJson,status) {
+        $.get('./asset/json/map/'+map.mapId+'.json', function (mapJson) {
                 
             registerAndsetOption(myChart,map.mapId,map.mapName,mapJson,false)
 
@@ -66,7 +66,7 @@ function back(){
 
             var cityId = cityMap[param.name]
             if(cityId){//代表有下级地图
-                $.get('./asset/json/map/'+cityId+'.json', function (mapJson,status) {
+                $.get('./asset/json/map/'+cityId+'.json', function (mapJson) {
                     registerAndsetOption(myChart,cityId,param.name,mapJson,true)
                 })
             }else{
