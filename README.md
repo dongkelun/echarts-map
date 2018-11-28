@@ -11,7 +11,7 @@
 > 一张一张的截图，图片太多了，就先学了一下录制gif
 
 <!-- more -->
-![](https://wx4.sinaimg.cn/large/e44344dcly1fxmmzni353g20u40idb2b.gif)
+![](https://github.com/dongkelun/echarts-map/blob/master/asset/images/ehcarts-map.gif)
 
 ## 4、代码
 
