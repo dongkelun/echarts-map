@@ -62,7 +62,7 @@ function mapChart(divid) {
         registerAndsetOption(myChart, chinaId, chinaName, mapJson, false)
         parentId = chinaId;
         parentName = 'china'
-        myChart.on('click', function (param, t) {
+        myChart.on('click', function (param) {
 
             var cityId = cityMap[param.name]
             if (cityId) {//代表有下级地图
