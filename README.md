@@ -30,5 +30,7 @@
 ## 6、博客地址
 [https://dongkelun.com/2018/11/27/echartsChinaMap/](https://dongkelun.com/2018/11/27/echartsChinaMap/)
 
+## 7、Vue版本（更新于2019.02.20）
+[https://github.com/dongkelun/vue-echarts-map](https://github.com/dongkelun/vue-echarts-map)
 
 
